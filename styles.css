@@ -1,5 +1,113 @@
 body {
-    background-color: rgb(231, 231, 231);}
+    background-color: rgb(241, 241, 241);
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
 
-.Recruitmentisevil {color:darkred;}
+a {
+    color: black;
+    } /* Globally*/
 
+.siteheader {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(252, 252, 252);
+    }
+
+.hc1 {
+    text-decoration: none;
+    border-right: 1px dotted black;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    font-size: 130%;
+    font-weight: bold;
+    }
+.hc1:hover {
+    text-decoration: underline black;
+    }
+
+.hc2 {
+    text-decoration: none;
+    border-right: 1px dotted black;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    font-size: 130%;
+    font-weight: bold;
+    }
+
+.hc2:hover {
+    text-decoration: underline black;
+    }
+
+.hc3 {
+    text-decoration: none;
+    border-right: 1px dotted black;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    font-size: 130%;
+    font-weight: bold;
+    }
+
+.hc3:hover {
+    text-decoration: underline black;
+    }
+
+.hc4 {
+    text-decoration: none;
+    border-right: 1px dotted black;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    font-size: 130%;
+    font-weight: bold;
+    }
+
+.hc4:hover {
+    text-decoration: underline black;
+    }
+
+.hc5 {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    font-size: 130%;
+    font-weight: bold;
+    }
+
+.hc5:hover {
+    text-decoration: underline black;
+    }
+
+.h1 {
+    text-align: center;
+    text-decoration: underline;
+    }
+
+.st {
+    border: 1px solid black;
+    padding: 5px;
+    }
+
+.cfdiv {
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(252, 252, 252);
+    }
+
+.cf {
+    border: 1px dotted black;
+    margin: auto;
+    padding: 10px;
+    text-align: left;  
+    }

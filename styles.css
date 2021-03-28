@@ -1,7 +1,19 @@
 body {
-    background: linear-gradient(#f1f1f1, #ffffff);    margin: 3%;
+    background: linear-gradient(rgb(250,250,250), rgb(204, 231, 248));    margin: 3%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+
+h1 {
+    font-size: 5.9vw;
+}
+
+h2 {
+    font-size: 3.0vh;
+}
+
+p {
+    font-size: 2.0vh;
+}
 
 a {
     color: black;
@@ -15,26 +27,39 @@ a {
     margin: auto;
     background-color: rgb(252, 252, 252);
     position:sticky;
+    width: 100%;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
     }
+
+.italicsp {
+    font-style: italic;
+}
+
+/* Header CSS Details */
 
 .hc1 {
     text-decoration: none;
     border-right: 1px dotted black;
     text-align: center;
-    margin: auto;
+    margin: 5px;
     padding: 7px;
     font-size: 130%;
     font-weight: bold;
     }
 .hc1:hover {
     text-decoration: underline black;
+    background-color: rgb(204, 231, 248);
+    transition: 2s;
+    border: 1px dotted black;
+    transition-timing-function: ease;
+    border-radius: 25px;
     }
 
 .hc2 {
     text-decoration: none;
     border-right: 1px dotted black;
     text-align: center;
-    margin: auto;
+    margin: 5px;
     padding: 7px;
     font-size: 130%;
     font-weight: bold;
@@ -42,13 +67,18 @@ a {
 
 .hc2:hover {
     text-decoration: underline black;
+    background-color: rgb(204, 231, 248);
+    transition: 2s;
+    border: 1px dotted black;
+    transition-timing-function: ease;
+    border-radius: 25px;
     }
 
 .hc3 {
     text-decoration: none;
     border-right: 1px dotted black;
     text-align: center;
-    margin: auto;
+    margin: 5px;
     padding: 7px;
     font-size: 130%;
     font-weight: bold;
@@ -56,14 +86,18 @@ a {
 
 .hc3:hover {
     text-decoration: underline black;
-    -colour: grey;
+    background-color: rgb(204, 231, 248);
+    transition: 2s;
+    border: 1px dotted black;
+    transition-timing-function: ease;
+    border-radius: 25px;
     }
 
 .hc4 {
     text-decoration: none;
     border-right: 1px dotted black;
     text-align: center;
-    margin: auto;
+    margin: 5px;
     padding: 7px;
     font-size: 130%;
     font-weight: bold;
@@ -71,12 +105,17 @@ a {
 
 .hc4:hover {
     text-decoration: underline black;
+    background-color: rgb(204, 231, 248);
+    transition: 2s;
+    border: 1px dotted black;
+    transition-timing-function: ease;
+    border-radius: 25px;
     }
 
 .hc5 {
     text-decoration: none;
     text-align: center;
-    margin: auto;
+    margin: 5px;
     padding: 7px;
     font-size: 130%;
     font-weight: bold;
@@ -84,11 +123,21 @@ a {
 
 .hc5:hover {
     text-decoration: underline black;
+    background-color: rgb(204, 231, 248);
+    transition: 2s;
+    border: 1px dotted black;
+    transition-timing-function: ease;
+    border-radius: 25px;
     }
+
+/* End of Header CSS*/
 
 .h1 {
     text-align: center;
-    text-decoration: underline;
+    letter-spacing: 5px;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
     }
 
 .st {
@@ -96,19 +145,116 @@ a {
     padding: 5px;
     }
 
+/* Get In Contact Page*/
+
+.contactcontainer {
+    display: flex;
+    margin: auto;
+    margin-bottom: 3%;
+    width: 100%;
+    
+}
+
+.socialcontactdiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .cfdiv {
     border: 1px solid black;
     text-align: center;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 15px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
     border-radius: 25px;
     background-color: rgb(252, 252, 252);
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
     }
 
+.cfdiv p {
+    border: 1px solid black; 
+    padding: 3%;
+    margin: 3px;
+    border-radius: 25px;
+    font-size: 100%;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.cfdiv:hover h2 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
 .cf {
-    border: 1px dotted black;
     margin: auto;
-    padding: 10px;
-    text-align: left;  
+    padding: 3px;
     }
+
+.smdiv {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 25px;
+    background-color: rgb(252, 252, 252);
+    height: 100%;
+    width: 100%;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
+    font-
+    }
+
+.smdiv h2 {
+    text-align: center;
+}
+
+.smdiv:hover h2 {
+    text-decoration: underline;
+}
+
+.smdiv a {
+    text-decoration: none;
+}
+
+.smdiv a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.smdiv ul {
+    list-style-type: none;
+}
+
+.contactdetsdiv {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(252, 252, 252);
+    height: 100%;
+    width: 100%;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
+    }
+
+.contactdetsdiv h2{
+    text-align: center;
+}
+
+.contactdetsdiv a {
+    text-decoration: none;
+}
+
+.contactdetsdiv ul {
+    list-style-type: none;
+}
+
+.contactdetsdiv a:hover{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.contactdetsdiv:hover h2 {
+    text-decoration: underline;
+}
+
+
+/* Eo Get In Contact Page*/

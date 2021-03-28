@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Get In Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='styles.css'>
 </head>
 <body><a name='top'></a> 
@@ -16,22 +17,50 @@
     
     
     <h1 class='h1'>Get In Contact</h1>
+
+    <p>Blah De Blah</p>
+
+    <div class='contactcontainer'>
     
-    <div class='cfdiv'>
-    <h2>Leave Me Feedback - I'd Love To Hear From You</h2>
-    <form source='' class='cf'>
-        <p><label id='fullname'>Enter Full Name</label>
-            <input type='text' placeholder='Enter Full Name' id='fullname'></p>
-        <p><label id='emailaddress'>Enter Email Address Here</label>
-            <input type='email' placeholder='Enter Email' id='emailaddress'></p>
-        <p><label id='telephonenumber'>Enter Phone Number Here</label>
-            <input type='tel' placeholder='Enter Phone Number' id='telephonenumber'></p>
-            <label id='feedbackarea'>Leave Your Feedback</label>
-            <textarea name='feedbackarea' id='feedbackarea' rows='3'></textarea>
-    <p><button>Send Feedback</button></p>
-    <p>Please note information will only be stored in a database to aid my learning.
-            No data shall be shared with third parties.</p>
-    </form>
+        <div class='cfdiv'>
+            <h2>Leave Me Feedback</h2>
+            <form source='' class='cf'>
+                <p><label id='fullname'>Full Name</label>
+                    <input type='text' placeholder='Enter Full Name' id='fullname' required></p>
+                <p><label id='emailaddress'>Email Address</label>
+                    <input type='email' placeholder='Enter Email' id='emailaddress' required></p>
+                <p><label id='telephonenumber'>Phone Number</label>
+                    <input type='tel' placeholder='Enter Phone Number' id='telephonenumber' required></p>
+                 <p><label id='feedbackarea'>Feedback</label>
+                    <textarea name='feedbackarea' placeholder='Enter Feedback' id='feedbackarea' rows='3' required></textarea></p>
+            <p><button>Send Feedback</button></p>
+            <p class='italicsp'>Please note information will only be stored in a database to aid my learning.
+                    No data shall be shared with third parties.</p>
+            </form>
+        </div>
+
+    <div class='socialcontactdiv'>
+
+        <div class='smdiv'>
+            <h2>Socials</h2>
+                <ul>
+                    <li><a href='https://www.linkedin.com/in/jacksuch/' target='_blank' placeholder='LinkedIn Profile'>LinkedIn</a></li>
+                    <li><a href='https://www.instagram.com/jacksuch/?hl=en-gb' target='_blank' placeholder='Instagram Profile'>Instagram</a></li>
+                </ul>
+        </div>
+        
+        <div class='contactdetsdiv'>
+            <h2>Get In Touch</h2>
+                <h3>Personal Email Address</h3>
+                    <ul>
+                        <li><a href='mailto:jacksuch96@googlemail.com'>jacksuch96@googlemail.com</a></li>
+                    </ul>
+                 <h3>Work Email Address</h3>
+                    <ul>
+                        <li><a href='mailto:jacks@thecandidate.co.uk'>jacks@thecandidate.co.uk</a></li>
+                    </ul>
+        </div>
+    </div>
     </div>
 
 

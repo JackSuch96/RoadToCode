@@ -1,26 +1,26 @@
 body {
-    background: linear-gradient(rgb(250,250,250), rgb(204, 231, 248));    margin: 3%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);    margin: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 10%;
     }
 
-body {margin-left: 15%;
-        margin-right: 15%;}
-
 h1 {
-    font-size: 5.0vw;
+    font-size: 250%;
 }
 
 h2 {
-    font-size: 3.0vh;
+    font-size: 100%;
 }
 
 p {
-    font-size: 2.0vh;
+    font-size: 50;
 }
 
 a {
     color: black;
-    } /* Globally*/
+    } 
+
 
 .siteheader {
     border: 1px solid black;
@@ -51,11 +51,10 @@ a {
     }
 .hc1:hover {
     text-decoration: underline black;
-    background-color: rgb(204, 231, 248);
+    background-color: rgb(211, 211, 211);
     transition: 2s;
     border: 1px dotted black;
     transition-timing-function: ease;
-    border-radius: 25px;
     }
 
 .hc2 {
@@ -70,11 +69,10 @@ a {
 
 .hc2:hover {
     text-decoration: underline black;
-    background-color: rgb(204, 231, 248);
+    background-color: rgb(211, 211, 211);
     transition: 2s;
     border: 1px dotted black;
     transition-timing-function: ease;
-    border-radius: 25px;
     }
 
 .hc3 {
@@ -89,11 +87,10 @@ a {
 
 .hc3:hover {
     text-decoration: underline black;
-    background-color: rgb(204, 231, 248);
+    background-color: rgb(211, 211, 211);
     transition: 2s;
     border: 1px dotted black;
     transition-timing-function: ease;
-    border-radius: 25px;
     }
 
 .hc4 {
@@ -108,11 +105,10 @@ a {
 
 .hc4:hover {
     text-decoration: underline black;
-    background-color: rgb(204, 231, 248);
+    background-color: rgb(211, 211, 211);
     transition: 2s;
     border: 1px dotted black;
     transition-timing-function: ease;
-    border-radius: 25px;
     }
 
 .hc5 {
@@ -126,12 +122,17 @@ a {
 
 .hc5:hover {
     text-decoration: underline black;
-    background-color: rgb(204, 231, 248);
+    background-color: rgb(211, 211, 211);
     transition: 2s;
     border: 1px dotted black;
     transition-timing-function: ease;
-    border-radius: 25px;
     }
+
+.siteheader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
 /* End of Header CSS*/
 
@@ -142,6 +143,13 @@ a {
     padding-top: 3%;
     padding-bottom: 3%;
     }
+
+ .h1nextline   {
+        text-align: center;
+        font-size: 150%;
+        letter-spacing: 8px;
+        margin: auto;
+        }
 
 .st {
     border: 1px solid black;
@@ -203,6 +211,7 @@ a {
     height: 100%;
     width: 100%;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
+    font-
     }
 
 .smdiv h2 {
@@ -229,7 +238,7 @@ a {
 .contactdetsdiv {
     border: 1px solid black;
     margin: 5px;
-    padding: 10%;
+    padding: 5px;
     border-radius: 25px;
     background-color: rgb(252, 252, 252);
     height: 100%;

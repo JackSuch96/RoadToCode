@@ -3,8 +3,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
+body {margin-left: 15%;
+        margin-right: 15%;}
+
 h1 {
-    font-size: 5.9vw;
+    font-size: 5.0vw;
 }
 
 h2 {
@@ -200,7 +203,6 @@ a {
     height: 100%;
     width: 100%;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
-    font-
     }
 
 .smdiv h2 {
@@ -227,7 +229,7 @@ a {
 .contactdetsdiv {
     border: 1px solid black;
     margin: 5px;
-    padding: 5px;
+    padding: 10%;
     border-radius: 25px;
     background-color: rgb(252, 252, 252);
     height: 100%;
